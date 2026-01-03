@@ -110,13 +110,3 @@ These visualizations are used for both exploratory analysis and presentation.
 
 
 ## Project Structure
-
-chess-opening-analysis/
-│
-├── notebooks/
-│ └── chess_opening_analysis.ipynb
-├── figures/
-│ └── plots used in analysis
-├── data/
-│ └── chess_games.csv (or link if not included)
-└── README.md
