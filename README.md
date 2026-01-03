@@ -108,7 +108,7 @@ they can still exert a significant influence on underlying structure and dynamic
 - Opening choice does not significantly improve win prediction beyond player skill
 - Openings shape the structure of games rather than determining winners
 - Nonlinear machine learning models are necessary to capture structural effects
-- Proper problem framing is critical when applying machine learning to real-world data
+- Proper problem framing is critical when applying machine learning to real world data
 
 
 
