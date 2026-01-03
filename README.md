@@ -77,7 +77,30 @@ Key findings:
 Conclusion:  
 While openings do not strongly predict outcomes, they meaningfully influence game length and structure.
 
+## Conclusion
 
+This project investigated whether chess opening choice meaningfully influences game outcomes and 
+game structure using machine learning models applied to a large dataset of online chess 
+games. Initial classification models showed that player rating and time control were the dominant 
+predictors of game outcome, while opening choice whether represented by ECO families or full 
+ECO codes did not improve predictive performance once player skill was controlled for. 
+This suggests that openings do not independently determine who wins a game, and that their apparent 
+effectiveness is largely explained by stronger players selecting stronger openings.
+
+Given these findings, the analysis was reframed to examine whether openings influence how games unfold, 
+rather than who wins. Treating game length (number of turns) as a regression problem revealed more 
+meaningful patterns. While a linear regression model explained very little variation in game length, 
+a Random Forest regressor captured nonlinear relationships and performed better, indicating that 
+opening choice contributes to game structure in more complex ways. Descriptive analysis supported 
+these results, showing that theoretical and positional openings such as the Sicilian Najdorf, 
+Ruy Lopez variations, and Slav structures are associated with longer games, while 
+irregular or tactical openings tend to result in shorter, more decisive games.
+
+Overall, the results suggest that chess openings shape the character of a game rather than 
+its final result. Player strength remains the primary determinant of winning, but opening choice 
+plays a meaningful role in influencing game length and complexity. This highlights the importance 
+of careful problem framing in data science: while some factors may not predict outcomes directly, 
+they can still exert a significant influence on underlying structure and dynamics.
 
 ## Key Takeaways
 
