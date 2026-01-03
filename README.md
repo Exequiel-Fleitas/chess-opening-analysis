@@ -17,7 +17,7 @@ Online chess game data including player ratings, openings (ECO codes), time cont
 - Leakage-aware modeling
 
 ## Analysis 1: Opening Choice and Game Outcomes
-- Ratings-only vs ratings + opening models
+- Ratings-only vs. ratings & opening models
 - ECO family and full ECO comparisons
 - Result: openings do not significantly improve win prediction beyond player skill
 
