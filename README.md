@@ -1,7 +1,5 @@
-# chess-opening-analysis
-Machine learning analysis of chess openings, game outcomes, and game length.
-
 # Chess Opening Analysis with Machine Learning
+This project uses supervised machine learning to analyze the impact of chess opening choices on game outcomes and game structure. Using a large dataset of online chess games, we first investigate whether certain openings consistently lead to better outcomes after controlling for player rating and time control. We then examine whether opening choice affects how games unfold by modeling game length and draw likelihood. Logistic regression and random forest models are used to evaluate both predictive performance and structural effects. The results show that while player skill dominates win prediction, opening choice meaningfully influences game length and complexity, particularly through nonlinear patterns.
 
 ## Research Questions
 1. Do certain chess openings consistently lead to better game outcomes?
