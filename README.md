@@ -106,7 +106,3 @@ These visualizations are used for both exploratory analysis and presentation.
 - pandas
 - scikit-learn
 - matplotlib
-
-
-
-## Project Structure
