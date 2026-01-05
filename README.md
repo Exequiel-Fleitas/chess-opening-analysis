@@ -121,6 +121,9 @@ The project includes:
 
 These visualizations are used for both exploratory analysis and presentation.
 
+## Author
+Exequiel Fleitas
+
 
 
 ## Technologies Used
