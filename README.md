@@ -121,10 +121,6 @@ The project includes:
 
 These visualizations are used for both exploratory analysis and presentation.
 
-## Author
-Exequiel Fleitas
-
-
 
 ## Technologies Used
 
@@ -132,3 +128,7 @@ Exequiel Fleitas
 - pandas
 - scikit-learn
 - matplotlib
+
+## Author
+Exequiel Fleitas
+
